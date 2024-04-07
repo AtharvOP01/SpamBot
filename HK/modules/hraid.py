@@ -4,7 +4,7 @@ from telethon import events
 from telethon.tl.types import User
 
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, OWNER_ID, CMD_HNDLR as hl
-from HK.data import HRAID, HK
+from HK.data import HRAID, HKz
 
 HRAID = []
 
@@ -33,7 +33,7 @@ async def raid(e):
             uid = entity.id
 
         try:
-            if uid in HK:
+            if uid in HKz:
                 await e.reply("ᴏᴡɴᴇʀ ʜᴀɪ ʏᴇ...")
             elif uid == OWNER_ID:
                 await e.reply("ʙᴇᴛᴀ ʙᴀᴀᴘ ᴘᴇ ʀᴀɪᴅ ɴʜɪ ᴋᴀʀᴛᴇ...")
