@@ -5,7 +5,7 @@ from random import choice
 from telethon import events
 
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, OWNER_ID, CMD_HNDLR as hl
-from HK.data import RAID, REPLYRAID, HK
+from HK.data import RAID, REPLYRAID, HKz
 
 
 REPLY_RAID = []
@@ -35,7 +35,7 @@ async def raid(e):
             uid = entity.id
 
         try:
-            if uid in OXYGEN:
+            if uid in HKz:
                 await e.reply("ʀᴇᴘᴏ ᴏᴡɴᴇʀ ʜᴀɪ ʏᴇ.")
             elif uid == OWNER_ID:
                 await e.reply("ʙᴇᴛᴀ ʙᴀᴀᴘ ᴘᴇ ʀᴀɪᴅ ɴʜɪ ᴋᴀʀᴛᴇ...")
@@ -100,7 +100,7 @@ async def rraid(e):
 
         try:
             user_id = entity.id
-            if user_id in HK:
+            if user_id in HKz:
                 await e.reply("ʀᴇᴘᴏ ᴏᴡɴᴇʀ ʜᴀɪ ʏᴇ.")
             elif user_id == OWNER_ID:
                 await e.reply("ʙᴇᴛᴀ ʙᴀᴀᴘ ᴘᴇ ʀᴀɪᴅ ɴʜɪ ᴋᴀʀᴛᴇ...")
