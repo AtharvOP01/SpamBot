@@ -3,7 +3,7 @@ import logging
 from telethon import TelegramClient
 
 from os import getenv
-from HK.data import HK
+from HK.data import HKz
 
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s', level=logging.WARNING)
@@ -28,7 +28,7 @@ BOT_TOKEN9 = getenv("BOT_TOKEN9", default=None)
 BOT_TOKEN10 = getenv("BOT_TOKEN10", default=None)
 
 SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="6329058409").split()))
-for x in HK:
+for x in HKz:
     SUDO_USERS.append(x)
 OWNER_ID = int(getenv("OWNER_ID", default="6329058409"))
 SUDO_USERS.append(OWNER_ID)
