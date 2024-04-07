@@ -1,1 +1,5 @@
-
+build:
+  docker:
+    HK: Dockerfile
+run:
+  HK: python3 -m main.py
