@@ -82,6 +82,6 @@ async def bday(e):
                 await e.client.send_message(e.chat_id, caption)
                 await asyncio.sleep(0.1)
         except (IndexError, ValueError, NameError):
-            await e.reply(f"{hl}ʙꜱᴘᴀᴍ <ᴄᴏᴜɴᴛ> <ᴜꜱᴇʀɴᴀᴍᴇ>\n{hl}ʙsᴘᴀᴍ<ᴄᴏᴜɴᴛ> <ʀᴇᴘʟʏ ᴛᴏ ᴜꜱᴇʀ>")
+            await e.reply(f"{hl}ʙꜱᴘᴀᴍ <ᴄᴏᴜɴᴛ> <ᴜꜱᴇʀɴᴀᴍᴇ> <ᴄᴏᴜɴᴛ> <ʀᴇᴘʟʏ ᴛᴏ ᴜꜱᴇʀ>")
         except Exception as e:
             print(e)
