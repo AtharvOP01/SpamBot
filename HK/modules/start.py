@@ -9,7 +9,7 @@ START_BUTTON = [
     ],
     [
         Button.url("⚜️ ᴅᴇᴠᴇʟᴏᴘᴇʀ ⚜️", "https://t.me/llxHKxll"),
-        Button.url("🍁 ᴜᴘᴅᴀᴛᴇs 🍁", "https://t.me/KaisanWorld")
+        Button.url("🍁 ᴜᴘᴅᴀᴛᴇs 🍁", "https://t.me/XovaUpdates")
     ],
     [
         Button.url("✨ ᴄᴏᴅᴇʀ ✨", "https://t.me/llxHKxll")
