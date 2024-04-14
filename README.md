@@ -2,7 +2,8 @@
 
 <h4 align="center"> ᴀ ᴘᴏᴡᴇʀғᴜʟ sᴘᴀᴍʙᴏᴛ</h4>
 
-<img src="https://telegra.ph/file/87efc7ef02936e9e53d79.jpg"/>
+<img ![image](https://github.com/AtharvOP01/SpamBot/assets/166982410/1921e97c-1da8-497f-97e1-943bc7cd2415)
+
 
 > ⭐️ Thanks to everyone for using this op ᴘʀᴇᴍɪᴜᴍ sᴘᴀᴍ ʙᴏᴛs. That is the greatest pleasure we have !
 
