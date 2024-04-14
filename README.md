@@ -2,7 +2,7 @@
 
 <h4 align="center"> ᴀ ᴘᴏᴡᴇʀғᴜʟ sᴘᴀᴍʙᴏᴛ</h4>
 
-<img src=" src="https://telegra.ph/file/87efc7ef02936e9e53d79.jpg"/>
+<img sʀᴄ="https://pin.it/wJvXmnEUa.jpg"/>
 
 > ⭐️ Thanks to everyone for using this op ᴘʀᴇᴍɪᴜᴍ sᴘᴀᴍ ʙᴏᴛs. That is the greatest pleasure we have !
 
