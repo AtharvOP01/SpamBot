@@ -1,4 +1,4 @@
-<h1 align="center"><b>[✨🥀]  ᴘʀᴇᴍɪᴜᴍ sᴘᴀᴍ ʙᴏᴛs</b></h1>
+ɪ<h1 align="center"><b>[✨🥀]  ᴘʀᴇᴍɪᴜᴍ sᴘᴀᴍ ʙᴏᴛs</b></h1>
 
 <h4 align="center"> ᴀ ᴘᴏᴡᴇʀғᴜʟ sᴘᴀᴍʙᴏᴛ</h4>
 
@@ -23,6 +23,6 @@
 <summary><b>sᴜᴘᴘᴏʀᴛ</b></summary>
 <br>
 
-<a href="https://t.me/KaisenWorld"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/WHOxCARES_0"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
 
 </details>
