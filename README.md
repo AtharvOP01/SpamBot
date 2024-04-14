@@ -1,10 +1,10 @@
-<h1 align="center"><b>[✨🥀] ʜᴋ sᴘᴀᴍ ʙᴏᴛs</b></h1>
+<h1 align="center"><b>[✨🥀]  PREMIUM  sᴘᴀᴍ ʙᴏᴛs</b></h1>
 
 <h4 align="center"> ᴀ ᴘᴏᴡᴇʀғᴜʟ sᴘᴀᴍʙᴏᴛ</h4>
 
 <img src="https://telegra.ph/file/87efc7ef02936e9e53d79.jpg"/>
 
-> ⭐️ Thanks to everyone for using this op ʜᴋ sᴘᴀᴍ ʙᴏᴛs. That is the greatest pleasure we have !
+> ⭐️ Thanks to everyone for using this op PREMIUM SPAM ʙᴏᴛs. That is the greatest pleasure we have !
 
 
 # ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
