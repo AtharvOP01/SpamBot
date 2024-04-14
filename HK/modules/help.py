@@ -3,7 +3,7 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"Hᴋ ꭙ Sᴘᴀᴍ 🫧 ʜᴇʟᴘ ᴍᴇɴᴜ ♡︎\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: Hᴋ ꭙ Sᴘᴀᴍ 🫧**"
+HELP_STRING = f"😈 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ✘ 𝐒𝐏𝐀𝐌 😈 ʜᴇʟᴘ ᴍᴇɴᴜ ♡︎\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: 😈 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ✘ 𝐒𝐏𝐀𝐌 😈**"
 
 HELP_BUTTON = [
     [
@@ -14,8 +14,8 @@ HELP_BUTTON = [
       Button.inline("🦋 ᴄᴏᴍᴍᴀɴᴅs 🦋", data="extra")
     ],
     [
-      Button.url("⚜️ ᴅᴇᴠᴇʟᴏᴘᴇʀ ⚜️", "https://t.me/llxHKxll"),
-      Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/KaisenWorld")
+      Button.url("⚜️ ᴅᴇᴠᴇʟᴏᴘᴇʀ ⚜️", "https://t.me/Premium5119"),
+      Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/WHOxCARES_0")
     ],
   [   
       Button.inline("ɴᴇᴡ ᴄᴏᴍᴍᴀɴᴅ", data="yash")
@@ -66,7 +66,7 @@ extra_msg = f"""
 🍁 ▸ 𝙰𝙱𝚄𝚂𝙴 𝚂𝙿𝙰𝙼 : **oɴᴇ ᴡᴏʀᴅ ɢᴀᴀʟɪ sᴘᴀᴍ**
   1) {hl}ᴀʙᴜsᴇ <ᴄᴏᴜɴᴛ> <ᴜsᴇʀɴᴀᴍᴇ>
   
-**© Hᴋ ꭙ Sᴘᴀᴍ 🫧**
+**© 😈 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ✘ 𝐒𝐏𝐀𝐌 😈**
 """
 
 
@@ -102,7 +102,7 @@ yash_msg = f"""
   1) {hl}ʙsᴘᴀᴍ <ᴄᴏᴜɴᴛ> <ᴜsᴇʀɴᴀᴍᴇ>
   2) {hl}ʙsᴘᴀᴍ <ᴄᴏᴜɴᴛ> <ʀᴇᴘʟʏ ᴛᴏ ᴜsᴇʀ>
 
-**© Hᴋ ꭙ Sᴘᴀᴍ 🫧**
+**© 😈 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ✘ 𝐒𝐏𝐀𝐌 😈**
 """
 
                  
@@ -125,7 +125,7 @@ raid_msg = f"""
   1) {hl}sʀᴀɪᴅ <ᴄᴏᴜɴᴛ> <ᴜsᴇʀɴᴀᴍᴇ>
   2) {hl}sʀᴀɪᴅ <ᴄᴏᴜɴᴛ> <ʀᴇᴘʟʏ ᴛᴏ ᴜsᴇʀɴᴀᴍᴇ>
 
-**© Hᴋ ꭙ Sᴘᴀᴍ 🫧**
+**© 😈 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ✘ 𝐒𝐏𝐀𝐌 😈**
 """
 
 spam_msg = f"""
@@ -138,7 +138,7 @@ spam_msg = f"""
 💓 ▸ 𝙷𝙰𝙽𝙶 : **sᴘᴀᴍs ʜᴀɴɢ ᴍᴇssᴀɢᴇ ғᴏʀ ᴄᴏᴜɴᴛ**
   1) {hl}ʜᴀɴɢ <ᴄᴏᴜɴᴛ>
 
-** © Hᴋ ꭙ Sᴘᴀᴍ 🫧**
+** © 😈 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ✘ 𝐒𝐏𝐀𝐌 😈**
 """                     
            
            
@@ -166,13 +166,13 @@ async def helpback(event):
                 Button.inline("🍁 ᴄᴏᴍᴍᴀɴᴅs 🍁", data="extra")
               ],
               [
-                Button.url("⚜️ ᴅᴇᴠᴇʟᴏᴘᴇʀ ⚜️", "https://t.me/llxHKxll"),
-                Button.url("🦋 sᴜᴘᴘᴏʀᴛ 🦋", "https://t.me/KaisenWorld")
+                Button.url("⚜️ ᴅᴇᴠᴇʟᴏᴘᴇʀ ⚜️", "https://t.me/Premium5119"),
+                Button.url("🦋 sᴜᴘᴘᴏʀᴛ 🦋", " https://t.me/WHOxCARES_0 ")
               ]
             ]
           )
     else:
-        await event.answer("♡︎ ᴘʟᴇᴀsᴇ ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛᴀɢ @llxHKxll" , cache_time=0, alert=True)
+        await event.answer("♡︎ ᴘʟᴇᴀsᴇ ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛᴀɢ @Premium5119" , cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -191,7 +191,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("♡︎ ᴘʟᴇᴀsᴇ ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛᴀɢ @llxHKxll", cache_time=0, alert=True)
+        await event.answer("♡︎ ᴘʟᴇᴀsᴇ ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛᴀɢ @Premium5119", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -210,7 +210,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("♡︎ ᴘʟᴇᴀsᴇ ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛᴀɢ @llxHKxll", cache_time=0, alert=True)
+        await event.answer("♡︎ ᴘʟᴇᴀsᴇ ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛᴀɢ @Premium5119", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -229,7 +229,7 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("♡︎ ᴘʟᴇᴀsᴇ ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛᴀɢ @llxHKxll", cache_time=0, alert=True)
+        await event.answer("♡︎ ᴘʟᴇᴀsᴇ ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛᴀɢ @Premium5119", cache_time=0, alert=True)
         
 
 @X1.on(events.CallbackQuery(pattern=r"yash"))
@@ -248,4 +248,4 @@ async def help_yash(event):
              buttons=[[Button.inline("< Back", data="help_back"),],],
              )
      else:
-         await event.answer("♡︎ ᴘʟᴇᴀsᴇ ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛᴀɢ @llxHKxll", cache_time=0, alert=True)
+         await event.answer("♡︎ ᴘʟᴇᴀsᴇ ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛᴀɢ @Premium5119", cache_time=0, alert=True)
