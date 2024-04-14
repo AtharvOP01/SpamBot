@@ -21,10 +21,10 @@ from datetime import datetime
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        jarvis = await e.reply(f"Hᴋ ꭙ Sᴘᴀᴍ 🫧")
+        jarvis = await e.reply(f"😈 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ✘ 𝐒𝐏𝐀𝐌 😈")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await jarvis.edit(f"Hᴋ ꭙ Sᴘᴀᴍ 🫧\n» `{mp} ᴍꜱ`")
+        await jarvis.edit(f"😈 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ✘ 𝐒𝐏𝐀𝐌 😈\n» `{mp} ᴍꜱ`")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -39,7 +39,7 @@ async def ping(e):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f"`Hᴋ ꭙ Sᴘᴀᴍ 🫧 ɪs sᴛᴀʀᴛɪɴɢ...`")
+        await e.reply(f"`😈 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ✘ 𝐒𝐏𝐀𝐌 😈 ɪs sᴛᴀʀᴛɪɴɢ...`")
         try:
             await X1.disconnect()
         except Exception:
@@ -99,7 +99,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"»Hᴋ ꭙ Sᴘᴀᴍ 🫧, ɴᴇᴡ sᴜᴅᴏ ᴜsᴇʀᴀᴅᴅᴇᴅ")
+        ok = await event.reply(f"»😈 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ✘ 𝐒𝐏𝐀𝐌 😈, ɴᴇᴡ sᴜᴅᴏ ᴜsᴇʀᴀᴅᴅᴇᴅ")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
@@ -117,7 +117,7 @@ async def addsudo(event):
             return
 
         if str(target) in sudousers:
-            await ok.edit(f"Hᴋ ꭙ Sᴘᴀᴍ 🫧 sᴜᴅᴏ ᴜsᴇʀ. !!")
+            await ok.edit(f"😈 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ✘ 𝐒𝐏𝐀𝐌 😈 sᴜᴅᴏ ᴜsᴇʀ. !!")
         else:
             if len(sudousers) > 0:
                 newsudo = f"{sudousers} {target}"
@@ -127,7 +127,7 @@ async def addsudo(event):
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
-        await event.reply("»Hᴋ ꭙ Sᴘᴀᴍ 🫧 ʙᴄ ʙᴀs ʜᴋ ʜɪ sᴜᴅᴏ ᴅᴇ sᴀᴋᴛᴀ ʜᴀɪ...")
+        await event.reply("»😈 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ✘ 𝐒𝐏𝐀𝐌 😈 ᴍᴄ ʙᴀs ᴘʀᴇᴍɪᴜᴍ ʜɪ sᴜᴅᴏ ᴅᴇ sᴀᴋᴛᴀ ʜᴀɪ...")
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sremovesudo(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%sremovesudo(?: |$)(.*)" % hl))
@@ -180,9 +180,9 @@ async def removesudo(event):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%ssudos(?: |$)(.*)" % hl))
 async def show_sudo_users(event):
     if event.sender_id == OWNER_ID:
-        sudo_users_list = "Hᴋ ꭙ Sᴘᴀᴍ 🫧 ᴄᴜʀʀᴇɴᴛ sᴜᴅᴏ ᴜsᴇʀs ʟɪsᴛ:\n"
+        sudo_users_list = "😈 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ✘ 𝐒𝐏𝐀𝐌 😈 ᴄᴜʀʀᴇɴᴛ sᴜᴅᴏ ᴜsᴇʀs ʟɪsᴛ:\n"
         for user_id in SUDO_USERS:
             sudo_users_list += f"- {user_id}\n"
         await event.reply(sudo_users_list)
     else:
-        await event.reply("ᴏɴʟʏ ғᴏʀ Hᴋ ꭙ Sᴘᴀᴍ 🫧 ᴏᴡɴᴇʀ.")
+        await event.reply("ᴏɴʟʏ ғᴏʀ 😈 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ✘ 𝐒𝐏𝐀𝐌 😈 ᴏᴡɴᴇʀ.")
