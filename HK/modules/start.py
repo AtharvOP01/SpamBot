@@ -35,7 +35,7 @@ async def start(event):
         TEXT = f"**ʜᴇʏ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})**\n"
         await event.client.send_file(
             event.chat_id,
-            "photo1713211962.jpeg",
+            "blob:https://web.telegram.org/747b29b2-f7e8-4e61-8eb5-81efa138efa8",
             caption=TEXT,
             buttons=START_BUTTON
         )
