@@ -25,7 +25,7 @@ def load_plugins(plugin_name):
     print("𝗣𝗥𝗘𝗠𝗜𝗨𝗠 𝗛𝗔𝗦 𝗜𝗠𝗣𝗢𝗥𝗧𝗘𝗗 " + plugin_name)
 
 
-files = glob.glob("PREMIUM/modules/*.py")
+files = glob.glob("HK/modules/*.py")
 for name in files:
     with open(name) as a:
         patt = Path(a.name)
