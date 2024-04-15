@@ -35,7 +35,7 @@ async def start(event):
         TEXT = f"**ʜᴇʏ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})**\n"
         await event.client.send_file(
             event.chat_id,
-            "https://telegra.ph/file/87efc7ef02936e9e53d79.jpg",
+            "https://github.com/AtharvOP01/SpamBot/assets/166982410/1921e97c-1da8-497f-97e1-943bc7cd2415",
             caption=TEXT,
             buttons=START_BUTTON
         )
