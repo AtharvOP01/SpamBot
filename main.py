@@ -16,7 +16,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
 def load_plugins(plugin_name):
-    path = Path(f"PREMIUM/modules/{plugin_name}.py")
+    path = Path(f"HK/modules/{plugin_name}.py")
     spec = importlib.util.spec_from_file_location(f"PREMIUM.modules.{plugin_name}", path)
     load = importlib.util.module_from_spec(spec)
     load.logger = logging.getLogger(plugin_name)
